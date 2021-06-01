@@ -21,7 +21,9 @@ function Header() {
           <HeaderItem title="Search" Icon={SearchIcon} />
           <HeaderItem title="Profile" Icon={UserIcon} />
         </div>
-        <span className="">BULU</span>
+        <span className="flex flex-col text-7xl px-6 font-bold text-white">
+          BULU
+        </span>
       </header>
     </div>
   );
