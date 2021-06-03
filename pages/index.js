@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Results from "../components/Results";
 import request from "../utils/requests";
 import requests from "../utils/requests";
-export default function Home({ results }) {
+const Home = ({ results }) => {
   return (
     <div>
       <Head>
@@ -17,7 +17,7 @@ export default function Home({ results }) {
       <Results results={results} />
     </div>
   );
-}
+};
 export async function getServerSideProps(context) {
   const genre = context.query.genre;
 
@@ -32,3 +32,5 @@ export async function getServerSideProps(context) {
     },
   };
 }
+
+export default Home;
