@@ -1,8 +1,17 @@
 ## BULU
-Simple front end redesign for Hulu.
-Bulu - the better hulu.
 
-Utilize NextJS And TailWind CSS, Data imported from TMDB
+## Overview
+
+Fully responsive front end redesign for Hulu,
 
 ## LIVE DEMO
 https://bulu.vercel.app/
+
+## Tech Used
+NextJS, TailwindCSS, TMDB(used as api for movie data)
+
+## Purpose
+This app is a project designed to hone my skills in responsive design.
+
+## License
+MIT License.
