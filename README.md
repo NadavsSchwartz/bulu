@@ -2,7 +2,7 @@
 
 ### Overview
 
-Fully responsive front end redesign for Hulu,
+Fully responsive front end redesign based on Hulu.
 
 ### LIVE DEMO
 https://bulu.vercel.app/
